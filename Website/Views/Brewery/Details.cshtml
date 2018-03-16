@@ -1,0 +1,100 @@
+﻿@model DAL.Models.Brewery
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div>
+    <h4>@Model.name</h4>
+    <hr />
+    <dl>
+        <dt>
+            @Html.DisplayNameFor(model => model.id)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.nameShortDisplay)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.nameShortDisplay)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.description)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.description)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.website)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.website)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.established)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.established)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.isOrganic)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.isOrganic)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.status)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.status)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.statusDisplay)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.statusDisplay)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.createDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.createDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.updateDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.updateDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.isMassOwned)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.isMassOwned)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.brandClassification)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.brandClassification)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.mailingListUrl)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.mailingListUrl)
+        </dd>
+    </dl>
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+</div>
+
